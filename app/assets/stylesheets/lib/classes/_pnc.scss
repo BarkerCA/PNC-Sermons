@@ -1,0 +1,81 @@
+/* PNC Color Classes */
+
+.pnc_green{
+  color: $pnc-green;
+}
+
+.pnc_blue{
+  color: $pnc-blue;
+}
+
+.pnc_gray{
+  color: $pnc-gray;
+}
+
+.pnc_orange{
+  color: $pnc-orange;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.text-italics{
+  font-style: italic;
+}
+
+.text-blue-bold-italics{
+  @extend .text-bold;
+  @extend .text-italics;
+  @extend .pnc_blue;
+}
+
+.text-green-bold-italics{
+  @extend .text-bold;
+  @extend .text-italics;
+  @extend .pnc_green;
+}
+
+.text-gray-bold-italics{
+  @extend .text-bold;
+  @extend .text-italics;
+  @extend .pnc_gray;
+}
+
+.text-orange-bold-italics{
+  @extend .text-bold;
+  @extend .text-italics;
+  @extend .pnc_orange;
+}
+
+/* Header Gradient */
+.header-linear{
+  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, blue); /* Standard syntax */
+}
+
+.video-container-169 {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 35px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container-43 {
+	position: relative;
+	padding-bottom: 75%;
+	padding-top: 35px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container-169 iframe, .video-container-43 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

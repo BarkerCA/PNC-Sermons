@@ -1,0 +1,120 @@
+body{
+  
+  background: #FFF;
+  min-width: 320px;
+  
+  // Size Warning
+  #warning{
+    display: none;
+    
+    p{
+      color: red;
+      @extend .text-center;
+    }
+  }
+  
+  // Header Definition
+  header{
+    @include linear-gradient-topbottom(rgba(255,255,255,0.9), $pnc-gray);
+    box-shadow: 1px 0px 7px rgba(0,0,0,0.9);
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    margin:0;
+    padding:0;
+  }
+  // Main Definition
+  #main{
+    padding-top: 85px;
+    padding-bottom: 15px;
+    
+    hr{
+      margin:0;
+      padding:0;
+    }
+    
+    #start_date{
+      text-align: left;
+      padding-left: 5px;
+      padding-bottom: 3px;
+      
+      span{
+        color: $pnc-orange;
+      }
+    }
+    
+    #end_date{
+      text-align: right;
+      padding-right: 5px;
+      padding-bottom: 3px;
+      
+      span{
+        color: $pnc-orange;
+      }
+    }
+  }
+  // Footer Definition
+  .site-footer {
+    // background-color: #000;
+    // background-color: $pnc-gray;
+    @include linear-gradient-topbottom(rgba($pnc-gray,0.4), $pnc-gray);
+    border-top: 1px solid rgba($pnc-gray,0.4);
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  footer{
+    background: #333;
+    color: $grayBattleship;
+    margin: 0px 0px 0px 0px!important;
+    padding: 25px 0px 45px 0px!important;
+    box-shadow:inset 1px 0px 7px rgba(0,0,0,0.9);
+    
+    .row{
+      @include single-text-shadow(1px, 1px, 1px, null, rgba(0,0,0,0.7));
+      
+      .columns{
+        margin-top: 20px;
+        
+        ul{
+          list-style: none;
+          margin:0;
+          padding:0;
+        }
+      }
+      
+      p{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+      }
+      
+      a{
+        color: $grayBattleship;
+      }
+      
+      a:hover{
+        color: $white;
+      }
+      
+      img.social{
+        width: 15.2%;
+        opacity: 0.5;
+      }
+      
+      img.social:hover{
+        opacity: 1.0;
+      }
+      
+      #youversion{
+        width: 79%;
+      }
+      
+      #bible{
+        width: 19%;
+      }
+    }
+  }
+}
+@import 'media-queries';

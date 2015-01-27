@@ -1,0 +1,41 @@
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+  body{
+    
+    #warning{
+      display: block;
+    }
+    
+    header{
+      display: none;
+    }
+    
+    #main{
+      display: none;
+    }
+    
+    footer{
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  body{
+    
+    header{
+      text-align: center;
+    }
+    
+    #main{
+      
+      #start_date{
+        padding-left: 0px;
+        text-align: left;
+      }
+      
+      #end_date{
+        text-align: left;
+      }
+    }
+  }
+}
