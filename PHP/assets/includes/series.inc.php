@@ -17,18 +17,18 @@ $series = array(
 # Glory Days Sermon Series
 #
   "glory-days"              => array("image"  => "http://assets.pointenorth.org/img/sermons/GloryDays.jpg",
-                                     "pheight"=> "400",
+                                     "pheight"=> "450",
                                      "title"  => "Glory Days", 
                                      "tracks" => 4, 
                                      "url"    => "https://soundcloud.com/pointe-north/sets/glory-days",
                                      "sdate"  => "January 4, 2015",
-                                     "edate"  => "Current",
+                                     "edate"  => "February 8, 2015",
                                     ),
 #
 # Welcome To The Family Sermon Series
 #
   "welcome-to-the-family"   => array("image"  => "http://assets.pointenorth.org/img/sermons/WelcomeToTheFamily.jpg",
-                                     "pheight"=> "400",
+                                     "pheight"=> "375",
                                      "title"  => "Welcome To The Family", 
                                      "tracks" => 3, 
                                      "url"    => "https://soundcloud.com/pointe-north/sets/welcome-to-the-family",
@@ -39,7 +39,7 @@ $series = array(
 # Thanks-Giving Sermon Series
 #
   "thanks-giving"           => array("image"  => "http://assets.pointenorth.org/img/sermons/ThanksGiving.jpg",
-                                     "pheight"=> "400",
+                                     "pheight"=> "450",
                                      "title"  => "Thanks-Giving", 
                                      "tracks" => 5, 
                                      "url"    => "https://soundcloud.com/pointe-north/sets/thanks-giving",
