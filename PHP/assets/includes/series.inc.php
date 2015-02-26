@@ -27,11 +27,24 @@ $huge_player      = "600";
 
 $series = array(
 #
+# The Power of We Single Sermon
+#
+  "commitment"              => array("image"  => "http://assets.pointenorth.org/img/sermons/PNC_Sermon.jpg",
+                                     "pheight"=> $single_player,
+                                     "title"  => "The Power of We",
+                                     "speaker"=> "Joey Rumble",
+                                     "tracks" => 1, 
+                                     "url"    => "https://soundcloud.com/pointe-north/the-power-of-we-02-22-2015-joeyrumble",
+                                     "sdate"  => "February 22, 2015",
+                                     "edate"  => "February 22, 2015",
+                                    ),
+#
 # Commitment Single Sermon
 #
   "commitment"              => array("image"  => "http://assets.pointenorth.org/img/sermons/PNC_Sermon.jpg",
                                      "pheight"=> $single_player,
-                                     "title"  => "Commitment", 
+                                     "title"  => "Commitment",
+                                     "speaker"=> "Tim Dorn",
                                      "tracks" => 1, 
                                      "url"    => "https://soundcloud.com/pointe-north/commitment-02-15-2014-timdorn",
                                      "sdate"  => "February 15, 2015",
@@ -42,7 +55,8 @@ $series = array(
 #
   "glory-days"              => array("image"  => "http://assets.pointenorth.org/img/sermons/GloryDays.jpg",
                                      "pheight"=> $large_player,
-                                     "title"  => "Glory Days", 
+                                     "title"  => "Glory Days",
+                                     "speaker"=> "Tim Dorn",
                                      "tracks" => 4, 
                                      "url"    => "https://soundcloud.com/pointe-north/sets/glory-days",
                                      "sdate"  => "January 4, 2015",
@@ -53,7 +67,8 @@ $series = array(
 #
   "welcome-to-the-family"   => array("image"  => "http://assets.pointenorth.org/img/sermons/WelcomeToTheFamily.jpg",
                                      "pheight"=> $medium_player,
-                                     "title"  => "Welcome To The Family", 
+                                     "title"  => "Welcome To The Family",
+                                     "speaker"=> "Tim Dorn",
                                      "tracks" => 3, 
                                      "url"    => "https://soundcloud.com/pointe-north/sets/welcome-to-the-family",
                                      "sdate"  => "December 7, 2014",
@@ -64,7 +79,8 @@ $series = array(
 #
   "thanks-giving"           => array("image"  => "http://assets.pointenorth.org/img/sermons/ThanksGiving.jpg",
                                      "pheight"=> $large_player,
-                                     "title"  => "Thanks-Giving", 
+                                     "title"  => "Thanks-Giving",
+                                     "speaker"=> "Tim Dorn",
                                      "tracks" => 5, 
                                      "url"    => "https://soundcloud.com/pointe-north/sets/thanks-giving",
                                      "sdate"  => "November 2, 2014",
