@@ -29,7 +29,7 @@ $series = array(
 #
 # The Power of We Single Sermon
 #
-  "commitment"              => array("image"  => "http://assets.pointenorth.org/img/sermons/PNC_Sermon.jpg",
+  "the-power-of-we"         => array("image"  => "http://assets.pointenorth.org/img/sermons/PNC_Sermon.jpg",
                                      "pheight"=> $single_player,
                                      "title"  => "The Power of We",
                                      "speaker"=> "Joey Rumble",
