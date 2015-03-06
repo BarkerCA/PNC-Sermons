@@ -72,9 +72,9 @@ if(empty($_ENV['DATABASE_SERVER'])){
   $_ENV['DATABASE_SERVER'] = 'database_server';
 }
 
-$db['production']['hostname'] =  'internal-db.s201162.gridserver.com ';
+$db['production']['hostname'] = $_ENV['DATABASE_SERVER'];
 $db['production']['username'] = 'db201162';
-$db['production']['password'] = '!Database77!';
+$db['production']['password'] = 'Database77#';
 $db['production']['database'] = 'db201162_sermons';
 $db['production']['dbdriver'] = 'mysql';
 $db['production']['dbprefix'] = '';
