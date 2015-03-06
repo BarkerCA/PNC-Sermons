@@ -45,13 +45,17 @@
 | the active record class
 */
 
-$active_group = 'default';
+if (ENVIRONMENT == 'production'){
+  $active_group = 'production';
+}else{
+  $active_group = 'default';
+}
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['username'] = 'chris';
+$db['default']['password'] = 'database';
+$db['default']['database'] = 'pnc_sermons';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
@@ -63,6 +67,26 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
+
+if(empty($_ENV['DATABASE_SERVER'])){
+  $_ENV['DATABASE_SERVER'] = 'database_server';
+}
+
+$db['production']['hostname'] =  'internal-db.s201162.gridserver.com ';
+$db['production']['username'] = 'db201162';
+$db['production']['password'] = '!Database77!';
+$db['production']['database'] = 'db201162_sermons';
+$db['production']['dbdriver'] = 'mysql';
+$db['production']['dbprefix'] = '';
+$db['production']['pconnect'] = TRUE;
+$db['production']['db_debug'] = TRUE;
+$db['production']['cache_on'] = FALSE;
+$db['production']['cachedir'] = '';
+$db['production']['char_set'] = 'utf8';
+$db['production']['dbcollat'] = 'utf8_general_ci';
+$db['production']['swap_pre'] = '';
+$db['production']['autoinit'] = TRUE;
+$db['production']['stricton'] = FALSE;
 
 
 /* End of file database.php */
