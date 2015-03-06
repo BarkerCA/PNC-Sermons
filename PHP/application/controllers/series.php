@@ -7,7 +7,9 @@ class Series extends CI_Controller {
     parent::__construct();
     $this->load->model('series_model');
   }
-
+  //
+  // Sermon series index
+  //
   public function index()
   {
     $data['title'] = "Welcome";
@@ -16,7 +18,10 @@ class Series extends CI_Controller {
     
     $this->render('series/index', $data);
   }
-  
+  //
+  // Listen to a sermon series
+  // $slug = URL parameter
+  //
   public function listen($slug)
   {
    
