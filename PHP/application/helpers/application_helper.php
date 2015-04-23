@@ -23,6 +23,18 @@ if ( ! function_exists('soundcloud_player_height'))
         case 6:
             $height = 600;
             break;
+        case 7:
+            $height = 600;
+            break;
+        case 8:
+            $height = 750;
+            break;
+        case 9:
+            $height = 750;
+            break;
+        case 10:
+            $height = 900;
+            break;
         default:
             $height = 450;
     }
